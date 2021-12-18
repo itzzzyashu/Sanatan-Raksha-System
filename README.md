@@ -4,10 +4,10 @@
 [![Stars](https://img.shields.io/github/stars/Awesome-RJ/Skynet-System?style=social)](https://github.com/Awesome-RJ/Skynet-System "Skynet X System")
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)](https://github.com/Awesome-RJ/Skynet-System "Skynet X System")
 
-# Skynet X System
+# DeathNote X System
 > A proactive judgement system for group chats.
 
-[![Skynet X System](https://telegra.ph/file/5e1498caef5ecaa21e8d3.jpg "Skynet X System")](https://github.com/Awesome-RJ/Skynet-System "Skynet X System")
+[![DeathNote X System](https://telegra.ph/file/5e1498caef5ecaa21e8d3.jpg "Skynet X System")](https://github.com/Awesome-RJ/Skynet-System "Skynet X System")
 
 ## A Telethon Userbot to make handling spam easer
 
@@ -44,14 +44,14 @@ Skynet is under active development and some future plans include
 ------------
 
 ##### Trivia
-- The use of the Skynet X System to determine latent criminals with the help of Crime Coefficients is introduced at some point between 2090 and 2100.
-- The first version of the Skynet X System was introduced between 2030 and 2049. At this point it is solely a supercomputer which was able to make precise and extensive cymatic scans, so the Employment Aptitude Exam of the Ministry of Health, Labor and Welfare would become more efficient and valid. Along with the cymatic scans, the Psycho-Pass measurement is introduced.
+- The use of the DeathNote X System to determine latent criminals with the help of Crime Coefficients is introduced at some point between 2090 and 2100.
+- The first version of the DeathNote X System was introduced between 2030 and 2049. At this point it is solely a supercomputer which was able to make precise and extensive cymatic scans, so the Employment Aptitude Exam of the Ministry of Health, Labor and Welfare would become more efficient and valid. Along with the cymatic scans, the Psycho-Pass measurement is introduced.
 
-- A replacement for the Skynet X System was proposed by the Ministry of Economy called the Panopticon, monitoring the economic and traffic activities of its citizens. As Jeremy Bentham designed Panopticon to be a prison to monitor criminals without them knowing that they're in fact being monitored, inmates would always behave as if being monitored. Its employment as a trial system to monitor traffic was both met with controversy and failure, thus Skynet X System remained.
+- A replacement for the DeathNote X System was proposed by the Ministry of Economy called the Panopticon, monitoring the economic and traffic activities of its citizens. As Jeremy Bentham designed Panopticon to be a prison to monitor criminals without them knowing that they're in fact being monitored, inmates would always behave as if being monitored. Its employment as a trial system to monitor traffic was both met with controversy and failure, thus DeathNote X System remained.
 
 - Based upon visual inspection, it appears that the physical structure of the Skynet X System contains 2,601 slots in total, despite having only 247 members.
 
-- The Skynet X System's Crime Coefficient is revealed to be over 300, even though it consists of only criminally asymptomatic brains. The brains contributing to this Coefficient are destroyed, lowering the number to zero.
+- The DeathNote X System's Crime Coefficient is revealed to be over 300, even though it consists of only criminally asymptomatic brains. The brains contributing to this Coefficient are destroyed, lowering the number to zero.
 
 - In case of emergency and/or if the System thinks that it is in danger, it can falsify the judgement of the Dominator, in order to suppress the threat.
 
@@ -72,6 +72,7 @@ Skynet is under active development and some future plans include
 
 #### Credits
 
+- [itzzzyashu](https://github.com/itzzzyashu) : Dev
 - [Rajkumar](https://github.com/Awesome-RJ/Skynet-System) : Dev
 - [DragSama](https://github.com/sitischu) : Base
 - [AnimeKaizoku](https://github.com/AnimeKaizoku) : Base
