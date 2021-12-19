@@ -4,7 +4,7 @@ import sys
 import subprocess
 
 
-@System.on(system_cmd(pattern=r"Skynet gitpull"))
+@System.on(system_cmd(pattern=r"SRS gitpull"))
 async def gitpull(event):
     subprocess.Popen("git pull", stdout=subprocess.PIPE, shell=True)
     await event.reply("Git pulled probably.")
@@ -12,7 +12,7 @@ async def gitpull(event):
     os.execv("start.bat", sys.argv)
 
 
-@System.on(system_cmd(pattern=r"Skynet restart"))
+@System.on(system_cmd(pattern=r"SRS restart"))
 async def reboot(event):
     if event.fwd_from:
         return
@@ -22,7 +22,7 @@ async def reboot(event):
     sys.exit()
 
 
-@System.on(system_cmd(pattern=r"Skynet shutdown"))
+@System.on(system_cmd(pattern=r"SRS shutdown"))
 async def shutdown(event):
     if event.fwd_from:
         return
