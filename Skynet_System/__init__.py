@@ -71,7 +71,7 @@ Skynet = [2053172802]
 ENFORCERS = [2053172802]
 INSPECTORS = [2053172802]
 
-MONGO_DB_URL = "mongodb+srv://Itzzzyashu:itzzzimpulsive@123@cluster0.bxlbu.mongodb.net/Cluster0?retryWrites=true&w=majority"
+MONGO_DB_URL = "mongodb+srv://Itzzzyashu:XE2wNb0imzTGXv1b@cluster0.bxlbu.mongodb.net/Cluster0?retryWrites=true&w=majority"
 
 Skynet_logs = "SanatanRakshaSystemLogs"
 
