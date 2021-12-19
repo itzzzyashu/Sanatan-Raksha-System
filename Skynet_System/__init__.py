@@ -68,8 +68,8 @@ BOT_TOKEN = "5082112391:AAEZuBOWBnmrQzehmoH8S4Gs-BMRenKB0eU"
 # with open(os.path.join(os.getcwd(), "Skynet_System/elevated_users.json"), "r") as f:
 #     data = json.load(f)
 Skynet = [2053172802]
-ENFORCERS = [2053172802 ,2053172802, 1969730847, 2088713608, 2089452706, 1118151835]
-INSPECTORS = [2037190400]
+ENFORCERS = [2037190400]
+INSPECTORS = [2053172802 ,2053172802, 1969730847, 2088713608, 2089452706, 1118151835]
 
 MONGO_DB_URL = "mongodb+srv://Itzzzyashu:XE2wNb0imzTGXv1b@cluster0.bxlbu.mongodb.net/Cluster0?retryWrites=true&w=majority"
 
