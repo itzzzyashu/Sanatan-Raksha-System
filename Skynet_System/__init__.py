@@ -66,7 +66,7 @@ STRING_SESSION = "1BVtsOHUBu0rvnoWsBKw9jJtK7zILHZ_C8BIrsxs2y99PP9K-QITU6G_E893bb
 BOT_TOKEN = "5082112391:AAEZuBOWBnmrQzehmoH8S4Gs-BMRenKB0eU"
 
 with open(os.path.join(os.getcwd(), "Skynet_System/elevated_users.json"), "r") as f:
-data = json.load(f)
+    data = json.load(f)
 Skynet = data["Skynet"]
 ENFORCERS = data["ENFORCERS"]
 INSPECTORS = data["INSPECTORS"]
