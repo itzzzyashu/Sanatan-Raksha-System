@@ -69,6 +69,8 @@ BOT_TOKEN = "5082112391:AAEZuBOWBnmrQzehmoH8S4Gs-BMRenKB0eU"
 
 ENFORCERS = "2053172802"
 
+INSPECTORS = "2053172802"
+
 MONGO_DB_URL = "mongodb+srv://Itzzzyashu:itzzzimpulsive@123@cluster0.bxlbu.mongodb.net/Cluster0?retryWrites=true&w=majority"
 
 Skynet_logs = "SanatanRakshaSystemLogs"
