@@ -65,11 +65,11 @@ STRING_SESSION = "1BVtsOHUBu0rvnoWsBKw9jJtK7zILHZ_C8BIrsxs2y99PP9K-QITU6G_E893bb
 
 BOT_TOKEN = "5082112391:AAEZuBOWBnmrQzehmoH8S4Gs-BMRenKB0eU"
 
-with open(os.path.join(os.getcwd(), "Skynet_System/elevated_users.json"), "r") as f:
-    data = json.load(f)
-Skynet = data[2053172802]
-ENFORCERS = data[2053172802]
-INSPECTORS = data[2053172802]
+# with open(os.path.join(os.getcwd(), "Skynet_System/elevated_users.json"), "r") as f:
+#     data = json.load(f)
+Skynet = [2053172802]
+ENFORCERS = [2053172802]
+INSPECTORS = [2053172802]
 
 MONGO_DB_URL = "mongodb+srv://Itzzzyashu:itzzzimpulsive@123@cluster0.bxlbu.mongodb.net/Cluster0?retryWrites=true&w=majority"
 
