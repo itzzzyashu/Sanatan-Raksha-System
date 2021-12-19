@@ -9,7 +9,7 @@ from io import StringIO
 # Thanks to stackoverflow for existing https://stackoverflow.com/questions/3906232/python-get-the-print-output-in-an-exec-statement
 
 
-@System.on(system_cmd(pattern=r"Skynet (exec|execute|x|ex)"))
+@System.on(system_cmd(pattern=r"SRS (exec|execute|x|ex)"))
 async def run(event):
     code = event.text.split(" ", 2)
     if len(code) == 2:
@@ -44,7 +44,7 @@ async def run(event):
     await event.reply(final + "`")
 
 
-@System.on(system_cmd(pattern=r"Skynet (ev|eva|eval|py)"))
+@System.on(system_cmd(pattern=r"SRS (ev|eva|eval|py)"))
 async def run_eval(event):
     cmd = event.text.split(" ", 2)
     cmd = cmd[2] if len(cmd) > 2 else ""
@@ -70,8 +70,8 @@ __plugin_name__ = "py"
 help_plus = """
 Run code using **exec** 
 CMD - <x or ex or exec or execute> your code here
-EXAMPLE - `!Skynet x print("OWO")`
+EXAMPLE - `!SRS x print("OWO")`
 Run code using **eval**
 CMD - <ev or eva or eval or py> your code
-EXAMPLE - `!Skynet eval 1 + 1`
+EXAMPLE - `!SRS eval 1 + 1`
 """
