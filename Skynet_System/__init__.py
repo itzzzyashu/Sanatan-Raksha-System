@@ -6,7 +6,7 @@ import os
 import re
 import aiohttp
 import json
-import Skynet_System.config as Config
+
 from telethon import events
 from telethon.sessions import StringSession
 from motor import motor_asyncio
