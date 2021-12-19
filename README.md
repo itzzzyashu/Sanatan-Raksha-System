@@ -5,16 +5,16 @@
 [![Stars](https://img.shields.io/github/stars/Awesome-RJ/Skynet-System?style=social)](https://github.com/Awesome-RJ/Skynet-System "Skynet X System")
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)](https://github.com/Awesome-RJ/Skynet-System "Skynet X System")
 
-# DeathNote X System
+# Sanatan Raksha System
 > A proactive judgement system for group chats.
 
-[![DeathNote X System](https://telegra.ph/file/5e1498caef5ecaa21e8d3.jpg "Skynet X System")](https://github.com/Awesome-RJ/Skynet-System "Skynet X System")
+[![Sanatan Raksha System](https://telegra.ph/file/5e1498caef5ecaa21e8d3.jpg "Sanatan-Raksha-System")](https://github.com/itzzzzyashu/Sanatan-Raksha-System-1 "Sanatan Raksha System")
 
 ## A Telethon Userbot to make handling spam easer
 
 ## Purpose and schematics
 
-Based on the popular anime series "Psycho Pass", Skynet is designed to work in a judgement and scan system where groups can request Cymatic scans for spammers, this then connects to the Skynet network and sends the data to Skynet for judgement, upon the approval of which the user is judged by the dominator.
+Based on the popular anime series "Psycho Pass", Sanatan-Raksha-System is designed to work in a judgement and scan system where groups can request Cymatic scans for spammers, this then connects to the Sanatan-Raksha-Network and sends the data to Sanatan-Raksha-System-core for judgement, upon the approval of which the user is judged by the dominator.
 
 > To create and manage all Dominators and scanner systems in-country and to monitor the behavior of MWPSB personnel
 
@@ -22,7 +22,7 @@ Based on the popular anime series "Psycho Pass", Skynet is designed to work in a
 
 ### Location
 
-Skynet can be seen around telegram judging people and chats and logging the information at [@SkynetXSystem](http://t.me/SkyneXSystem "@SkynetXSystem")
+Sanatan-Raksha-System can be seen around telegram judging people and chats and logging the information at [@SanatanRakshaSystem](http://t.me/SanatanRakshaSystem "@SanatanRakshaSystem")
 The base of operations of Skynet are Beneath the NONA Tower and are only accessible by select personnel.
 
 ------------
@@ -45,14 +45,14 @@ Skynet is under active development and some future plans include
 ------------
 
 ##### Trivia
-- The use of the DeathNote X System to determine latent criminals with the help of Crime Coefficients is introduced at some point between 2090 and 2100.
-- The first version of the DeathNote X System was introduced between 2030 and 2049. At this point it is solely a supercomputer which was able to make precise and extensive cymatic scans, so the Employment Aptitude Exam of the Ministry of Health, Labor and Welfare would become more efficient and valid. Along with the cymatic scans, the Psycho-Pass measurement is introduced.
+- The use of the Sanatan-Raksha-System to determine latent criminals with the help of Crime Coefficients is introduced at some point between 2090 and 2100.
+- The first version of the Sanatan-Raksha-System was introduced between 2030 and 2049. At this point it is solely a supercomputer which was able to make precise and extensive cymatic scans, so the Employment Aptitude Exam of the Ministry of Health, Labor and Welfare would become more efficient and valid. Along with the cymatic scans, the Psycho-Pass measurement is introduced.
 
-- A replacement for the DeathNote X System was proposed by the Ministry of Economy called the Panopticon, monitoring the economic and traffic activities of its citizens. As Jeremy Bentham designed Panopticon to be a prison to monitor criminals without them knowing that they're in fact being monitored, inmates would always behave as if being monitored. Its employment as a trial system to monitor traffic was both met with controversy and failure, thus DeathNote X System remained.
+- A replacement for the Sanatan-Raksha-System was proposed by the Ministry of Economy called the Panopticon, monitoring the economic and traffic activities of its citizens. As Jeremy Bentham designed Panopticon to be a prison to monitor criminals without them knowing that they're in fact being monitored, inmates would always behave as if being monitored. Its employment as a trial system to monitor traffic was both met with controversy and failure, thus Sanatan-Raksha-System remained.
 
-- Based upon visual inspection, it appears that the physical structure of the Skynet X System contains 2,601 slots in total, despite having only 247 members.
+- Based upon visual inspection, it appears that the physical structure of the Sanatan-Raksha-System contains 2,601 slots in total, despite having only 247 members.
 
-- The DeathNote X System's Crime Coefficient is revealed to be over 300, even though it consists of only criminally asymptomatic brains. The brains contributing to this Coefficient are destroyed, lowering the number to zero.
+- The Sanatan-Raksha-System's Crime Coefficient is revealed to be over 300, even though it consists of only criminally asymptomatic brains. The brains contributing to this Coefficient are destroyed, lowering the number to zero.
 
 - In case of emergency and/or if the System thinks that it is in danger, it can falsify the judgement of the Dominator, in order to suppress the threat.
 
@@ -69,7 +69,7 @@ Skynet is under active development and some future plans include
 - Cuz I'm a noob.
 
 >Why not getting list of all module instead of manually putting module in to_load?
-- I don't want people from uniborg or ftg or other userbots to put their plugins (those weird animation ones or useless ones) in Skynet X System
+- I don't want people from uniborg or ftg or other userbots to put their plugins (those weird animation ones or useless ones) in Sanatan-Raksha-System
 
 #### Credits
 
