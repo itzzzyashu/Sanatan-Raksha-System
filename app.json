@@ -42,14 +42,17 @@
       },
       "Skynet_logs": {
          "description": "Your username without the @",
+         "required": true,
          "value": "anonymouskuser"
       },
       "Skynet_approved_logs": {
          "description": "Your username without the @",
+         "required": true,
          "value": "anonymouskuser"
       },
       "GBAN_MSG_LOGS": {
          "description": "Your username without the @",
+         "required": true,
          "value": "anonymouskuser"
       },
       
