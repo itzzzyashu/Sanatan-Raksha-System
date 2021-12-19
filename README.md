@@ -8,7 +8,7 @@
 # Sanatan Raksha System
 > A proactive judgement system for group chats.
 
-[![Sanatan Raksha System](https://telegra.ph/file/5e1498caef5ecaa21e8d3.jpg "Sanatan-Raksha-System")](https://github.com/itzzzzyashu/Sanatan-Raksha-System-1 "Sanatan Raksha System")
+[![Sanatan Raksha System](https://telegra.ph/file/76198b935503fd6998c5a.jpg "Sanatan-Raksha-System")](https://github.com/itzzzzyashu/Sanatan-Raksha-System-1 "Sanatan Raksha System")
 
 ## A Telethon Userbot to make handling spam easer
 
