@@ -73,11 +73,11 @@ INSPECTORS = [1969730847, 2088713608, 2089452706, 1118151835]
 
 MONGO_DB_URL = "mongodb+srv://Itzzzyashu:XE2wNb0imzTGXv1b@cluster0.bxlbu.mongodb.net/Cluster0?retryWrites=true&w=majority"
 
-Skynet_logs = "SanatanRakshaSystemSupport"
+Skynet_logs = "SanatanRakshaGlobalLogs" # SRS • Global
 
-Skynet_approved_logs = "SanatanRakshaApprovalLogs"
+Skynet_approved_logs = "SanatanRakshaApprovalLogs" # SRS • Approvals
 
-GBAN_MSG_LOGS = "SanatanRakshaGlobalLogs"
+GBAN_MSG_LOGS = "SanatanRakshaSystemSupport" # SRS • Support
 
 INSPECTORS.extend(Skynet)
 
