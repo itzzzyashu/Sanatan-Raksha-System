@@ -35,6 +35,7 @@ async def whois(event):
 
 help_plus = """ Here is Help for **Whois** -
 `whois` - get data of the user
+`uid` - Generate user ID
 **Notes:**
 `/` `?` `.` `!` are supported prefixes.
 **Example:** `/addenf` or `?addenf` or `.addenf`
