@@ -23,19 +23,12 @@ async def whois(event):
         return
     await System.send_message(
         event.chat_id,
-        f"╒═══「 **Appraisal results** 」",
-        f"\n**• First Name:** `{data.user.last_name}`",
-        f"\n**• Last Name:** `{data.user.first_name}`",
-        f"\n**• Username:** @{data.user.username}",
-        f"\n**• Userlink:** [{data.user.first_name}](tg://user?id={data.user.id})",
-        f"\n**• User ID:** `{data.user.id}`",
-        f"\n**• About:** {data.about}",
+        f"╒═══「 Appraisal results: 」\n❂ First Name: `{data.user.last_name}`\n❂ Last Name: `{data.user.first_name}`\n❂ Username: @{data.user.username}\n❂ Userlink: [{data.user.first_name}](tg://user?id={data.user.id})\n❂ User ID: `{data.user.id}`\n❂ About: {data.about}",
     )
 
 
 help_plus = """ Here is Help for **Whois** -
 `whois` - get data of the user
-`uid` - Generate user ID
 **Notes:**
 `/` `?` `.` `!` are supported prefixes.
 **Example:** `/addenf` or `?addenf` or `.addenf`
