@@ -42,7 +42,7 @@ async def make_proof(user: Union[str, int]):
 
 @System.bot.on(events.NewMessage(pattern="[/!]start"))
 async def sup(event):
-    await event.reply("sup?")
+    await event.reply("Hello, I am not everything in **Sanatan-Raksha-System**\n• If you’re my (owner/inspector/enforcer) you can get help related to Scanner by `?help main` command (it only works for ins/enf/owner).\n• If you want to appeal a gban for a user kindly report it to **@SanatanRakshaSystemSupport**\n• Send /help to know more about my usage.\nThanks for starting me :)")
 
 @System.bot.on(events.NewMessage(pattern="[/!]alertmode"))
 async def setalertmode(event):
@@ -73,9 +73,9 @@ async def help(event):
         """
 Add this bot to any group and It will warn/ban If any gbanned user joins.
 **Commands:**
-    `help` - This text.
-    `start` - Start the bot.
-    `alertmode` - Change alertmode.
+    `/help` - This text.
+    `/start` - Start the bot.
+    `/alertmode <mode-name>` - Change alertmode.
         **Available modes:**
         `silent-ban` - Silently ban user.
         `ban` - Ban and send a message In the chat to say the user was banned.
