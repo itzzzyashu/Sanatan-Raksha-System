@@ -24,7 +24,7 @@ FAILED_TO_LOAD = {}
 
 for load in to_load:
     try:
-        imported = importlib.import_module("Skynet_System.plugins." + load)
+        imported = importlib.import_module("Sanatan_Raksha_System.plugins." + load)
         if not hasattr(imported, "__plugin_name__"):
             imported.__plugin_name__ = imported.__name__
 
@@ -41,9 +41,9 @@ for load in to_load:
         print("------------------------------------")
 
 
-@System.on(system_cmd(pattern=r"sxsinfo", allow_enforcer=True))
+@System.on(system_cmd(pattern=r"srsinfo", allow_enforcer=True))
 async def status(event):
-    msg = await event.reply("Conecting to Skynet X System System Core.")
+    msg = await event.reply("Conecting to Sanatan-Raksha-System • Core.")
     time.sleep(1)
     await msg.edit("Initialising ■□□□□□")
     time.sleep(1)
