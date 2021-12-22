@@ -1,7 +1,7 @@
-from Skynet_System import System, session, INSPECTORS, ENFORCERS, Skynet_logs
-from Skynet_System.strings import proof_string, scan_request_string, reject_string
-from Skynet_System.plugins.Mongo_DB.gbans import get_gban, get_gban_by_proofid
-import Skynet_System.plugins.Mongo_DB.bot_settings as db
+from Sanatan_Raksha_System import System, session, INSPECTORS, ENFORCERS, Skynet_logs
+from Sanatan_Raksha_System.strings import proof_string, scan_request_string, reject_string
+from Sanatan_Raksha_System.plugins.Mongo_DB.gbans import get_gban, get_gban_by_proofid
+import Sanatan_Raksha_System.plugins.Mongo_DB.bot_settings as db
 
 from telethon import events, custom
 
@@ -152,7 +152,7 @@ async def inline_handler(event):
     split = query.split(" ", 1)
     if event.query.user_id not in INSPECTORS:
         result = builder.article(
-            "Skynet System", text="You don't have access to this cmd."
+            "Sanatan-Raksha-System", text="You don't have access to this cmd."
         )
         await event.answer([result])
         return
