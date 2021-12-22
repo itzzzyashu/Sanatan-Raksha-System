@@ -9,16 +9,16 @@ from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.channels import JoinChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 
-from Skynet_System.plugins.Mongo_DB.tree import add_inspector, add_enforcers, get_data
-from Skynet_System import ENFORCERS, INSPECTORS, Skynet, session
-from Skynet_System import System, system_cmd
-from Skynet_System import Skynet_logs
+from Sanatan_Raksha_System.plugins.Mongo_DB.tree import add_inspector, add_enforcers, get_data
+from Sanatan_Raksha_System import ENFORCERS, INSPECTORS, Skynet, session
+from Sanatan_Raksha_System import System, system_cmd
+from Sanatan_Raksha_System import Skynet_logs
 
 from datetime import datetime
 from urllib.parse import urlparse, urlunparse
 
 try:
-    from Skynet_System import HEROKU_API_KEY, HEROKU_APP_NAME
+    from Sanatan_Raksha_System import HEROKU_API_KEY, HEROKU_APP_NAME
 
     heroku_conn = heroku3.from_key(HEROKU_API_KEY)
     app = heroku_conn.app(HEROKU_APP_NAME)
@@ -27,7 +27,7 @@ try:
 except BaseException:
     HEROKU = False
 
-json_file = os.path.join(os.getcwd(), "Skynet_System\\elevated_users.json")
+json_file = os.path.join(os.getcwd(), "Sanatan_Raksha_System\\elevated_users.json")
 
 
 @System.on(system_cmd(pattern=r"addenf", allow_inspectors=True))
@@ -137,14 +137,14 @@ async def join(event) -> None:
         await System.send_message(event.chat_id, "Joined chat!")
         await System.send_message(
             Skynet_logs,
-            f"{(await event.get_sender()).first_name} made Skynet join {private.group(5)}",
+            f"{(await event.get_sender()).first_name} made Sanatan-Raksha-System-Scanner join {private.group(5)}",
         )
     else:
         await System(JoinChannelRequest(link))
         await System.send_message(event.chat_id, "Joined chat!")
         await System.send_message(
             Skynet_logs,
-            f"{(await event.get_sender()).first_name} made Skynet join {link}",
+            f"{(await event.get_sender()).first_name} made Sanatan-Raksha-System-Scanner join {link}",
         )
 
 
