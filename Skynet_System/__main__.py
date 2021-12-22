@@ -1,4 +1,4 @@
-from Skynet_System import (
+from Sanatan_Raksha_System import (
     System,
     system_cmd,
     make_collections,
@@ -6,7 +6,7 @@ from Skynet_System import (
     ENFORCERS,
     Skynet_logs,
 )
-from Skynet_System.strings import on_string
+from Sanatan_Raksha_System.strings import on_string
 import logging
 import importlib
 import asyncio
@@ -16,7 +16,7 @@ logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s", level=logging.WARNING
 )
 
-from Skynet_System.plugins import to_load
+from Sanatan_Raksha_System.plugins import to_load
 
 HELP = {}
 IMPORTED = {}
@@ -43,7 +43,7 @@ for load in to_load:
 
 @System.on(system_cmd(pattern=r"sxsinfo", allow_enforcer=True))
 async def status(event):
-    msg = await event.reply("Conecting to Skynet X System System Core.")
+    msg = await event.reply("Conecting to Sanatan-Raksha-System Core.")
     time.sleep(1)
     await msg.edit("Initialising ■□□□□□")
     time.sleep(1)
@@ -57,7 +57,7 @@ async def status(event):
     time.sleep(1)
     await msg.edit("Initialising ■■■■■■")
     time.sleep(1)
-    await msg.edit("Connection Successful!")
+    await msg.edit("Access Granted!")
     time.sleep(2)
     sender = await event.get_sender()
     user_status = "Inspector" if sender.id in INSPECTORS else "Enforcer"
