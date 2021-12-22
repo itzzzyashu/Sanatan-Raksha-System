@@ -1,7 +1,7 @@
-from Skynet_System import System, session, INSPECTORS, ENFORCERS, Skynet_logs
-from Skynet_System.strings import proof_string, scan_request_string, reject_string
-from Skynet_System.plugins.Mongo_DB.gbans import get_gban, get_gban_by_proofid
-import Skynet_System.plugins.Mongo_DB.bot_settings as db
+from Sanatan_Raksha_System import System, session, INSPECTORS, ENFORCERS, Skynet_logs
+from Sanatan_Raksha_System.strings import proof_string, scan_request_string, reject_string
+from Sanatan_Raksha_System.plugins.Mongo_DB.gbans import get_gban, get_gban_by_proofid
+import Sanatan_Raksha_System.plugins.Mongo_DB.bot_settings as db
 
 from telethon import events, custom
 
@@ -73,13 +73,13 @@ async def help(event):
         """
 Add this bot to any group and It will warn/ban If any gbanned user joins.
 **Commands:**
-    `/help` - This text.
-    `/start` - Start the bot.
-    `/alertmode <mode-name>` - Change alertmode.
-        **Available modes:**
-        `silent-ban` - Silently ban user.
-        `ban` - Ban and send a message In the chat to say the user was banned.
-        `warn` - Warn that a gbanned user has joined but do nothing.
+ `/help` - This text.
+ `/start` - Start the bot.
+ `/alertmode <mode-name>` - Change alertmode.
+  **Available modes:**
+    `silent-ban` - Silently ban user.
+    `ban` - Ban and send a message In the chat to say the user was banned.
+    `warn` - Warn that a gbanned user has joined but do nothing.
 All commands can be used with ! or /.
     """
     )
