@@ -1,7 +1,7 @@
-from Skynet_System import System, Skynet, ENFORCERS, Skynet_logs, system_cmd
+from Sanatan_Raksha_System import System, Skynet, ENFORCERS, Skynet_logs, system_cmd
 import re
-import Skynet_System.plugins.Mongo_DB.message_blacklist as db
-import Skynet_System.plugins.Mongo_DB.name_blacklist as wlc_collection
+import Sanatan_Raksha_System.plugins.Mongo_DB.message_blacklist as db
+import Sanatan_Raksha_System.plugins.Mongo_DB.name_blacklist as wlc_collection
 from telethon import events
 
 
