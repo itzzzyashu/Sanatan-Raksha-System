@@ -1,14 +1,14 @@
 import re
 
-from Skynet_System import Skynet_logs, ENFORCERS, Skynet, INSPECTORS
-from Skynet_System.strings import (
+from Sanatan_Raksha_System import Skynet_logs, ENFORCERS, Skynet, INSPECTORS
+from Sanatan_Raksha_System.strings import (
     scan_request_string,
     reject_string,
     proof_string,
     forced_scan_string,
 )
-from Skynet_System import System, system_cmd
-from Skynet_System.utils import seprate_flags, Flag
+from Sanatan_Raksha_System import System, system_cmd
+from Sanatan_Raksha_System.utils import seprate_flags, Flag
 
 
 url_regex = re.compile("(http(s)?://)?t.me/(c/)?(\w+)/(\d+)")
