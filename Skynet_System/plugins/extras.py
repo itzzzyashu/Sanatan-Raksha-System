@@ -9,16 +9,16 @@ from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.channels import JoinChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 
-from Skynet_System.plugins.Mongo_DB.tree import add_inspector, add_enforcers, get_data
-from Skynet_System import ENFORCERS, INSPECTORS, Skynet, session
-from Skynet_System import System, system_cmd
-from Skynet_System import Skynet_logs
+from Sanatan_Raksha_System.plugins.Mongo_DB.tree import add_inspector, add_enforcers, get_data
+from Sanatan_Raksha_System import ENFORCERS, INSPECTORS, Skynet, session
+from Sanatan_Raksha_System import System, system_cmd
+from Sanatan_Raksha_System import Skynet_logs
 
 from datetime import datetime
 from urllib.parse import urlparse, urlunparse
 
 try:
-    from Skynet_System import HEROKU_API_KEY, HEROKU_APP_NAME
+    from Sanatan_Raksha_System import HEROKU_API_KEY, HEROKU_APP_NAME
 
     heroku_conn = heroku3.from_key(HEROKU_API_KEY)
     app = heroku_conn.app(HEROKU_APP_NAME)
