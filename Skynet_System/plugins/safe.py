@@ -1,4 +1,4 @@
-from Skynet_System import System, system_cmd
+from Sanatan_Raksha_System import System, system_cmd
 import os
 import sys
 import subprocess
