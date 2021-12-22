@@ -1,4 +1,4 @@
-from Skynet_System import MONGO_CLIENT
+from Sanatan_Raksha_System import MONGO_CLIENT
 
 db = MONGO_CLIENT["Skynet"]["Main"]
 
