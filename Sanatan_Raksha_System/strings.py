@@ -1,5 +1,6 @@
 on_string = """
-╒═══「 Sanatan-Raksha-System • Server Core 」
+╒═══════「 $SRSINFO 」
+「 Sanatan-Raksha-System • Server Core 」
 ➖➖➖➖➖➖➖➖➖
 ➛ NAME: {name}
 ➛ RANK: {Enforcer}
