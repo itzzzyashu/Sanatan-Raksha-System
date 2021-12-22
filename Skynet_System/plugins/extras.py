@@ -27,7 +27,7 @@ try:
 except BaseException:
     HEROKU = False
 
-json_file = os.path.join(os.getcwd(), "Skynet_System\\elevated_users.json")
+json_file = os.path.join(os.getcwd(), "Sanatan_Raksha_System\\elevated_users.json")
 
 
 @System.on(system_cmd(pattern=r"addenf", allow_inspectors=True))
@@ -137,14 +137,14 @@ async def join(event) -> None:
         await System.send_message(event.chat_id, "Joined chat!")
         await System.send_message(
             Skynet_logs,
-            f"{(await event.get_sender()).first_name} made Skynet join {private.group(5)}",
+            f"{(await event.get_sender()).first_name} Added Sanatan-Raksha-System-Scanner to {private.group(5)}",
         )
     else:
         await System(JoinChannelRequest(link))
         await System.send_message(event.chat_id, "Joined chat!")
         await System.send_message(
             Skynet_logs,
-            f"{(await event.get_sender()).first_name} made Skynet join {link}",
+            f"{(await event.get_sender()).first_name} Added Sanatan-Raksha-System-Scanner to {link}",
         )
 
 
@@ -283,11 +283,11 @@ async def leave(event) -> None:
     if c_id:
         await System(LeaveChannelRequest(int(c_id.group(0))))
         await System.send_message(
-            event.chat_id, f"Skynet has left chat with id[-{c_id.group(1)}]"
+            event.chat_id, f"Sanatan-Raksha-System-Scanner has left chat with id[-{c_id.group(1)}]"
         )
     else:
         await System(LeaveChannelRequest(link))
-        await System.send_message(event.chat_id, f"Skynet has left chat[{link}]")
+        await System.send_message(event.chat_id, f"Sanatan-Raksha-System-Scanner has left chat[{link}]")
 
 
 @System.on(system_cmd(pattern=r"get_redirect ", allow_inspectors=True))
