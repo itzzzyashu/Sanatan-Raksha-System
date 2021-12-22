@@ -9,7 +9,7 @@ from .strings import (
 )
 from .utils import FlagParser, ParseError
 
-from Skynet_System import (
+from Sanatan_Raksha_System import (
     Skynet_logs,
     Skynet_approved_logs,
     GBAN_MSG_LOGS,
@@ -17,11 +17,11 @@ from Skynet_System import (
     API_ID_KEY,
     API_HASH_KEY,
 )
-from Skynet_System.plugins.Mongo_DB.gbans import update_gban, delete_gban
+from Sanatan_Raksha_System.plugins.Mongo_DB.gbans import update_gban, delete_gban
 
 
 class SkynetClient(TelegramClient):
-    """SkynetClient - Subclass of Telegram Client."""
+    """Sanatan-Raksha-System Client - Subclass of Telegram Client."""
 
     def __init__(self, *args, **kwargs):
         """Declare stuff."""
