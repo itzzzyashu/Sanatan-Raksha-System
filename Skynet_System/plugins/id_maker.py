@@ -1,4 +1,4 @@
-from Skynet_System import system_cmd, System
+from Sanatan_Raksha_System import system_cmd, System
 from PIL import Image, ImageDraw, ImageFont
 import os
 
