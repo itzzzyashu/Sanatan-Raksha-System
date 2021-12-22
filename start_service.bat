@@ -27,5 +27,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 :: your commands begin from this point.
 :: stops the service and then starts it 
-net stop Sanatan-Raksha-System
-net start Sanatan-Raksha-System
+net stop Sanatan_Raksha_System
+net start Sanatan_Raksha_System
