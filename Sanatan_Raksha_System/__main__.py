@@ -1,4 +1,4 @@
-from Skynet_System import (
+from Sanatan_Raksha_System import (
     System,
     system_cmd,
     make_collections,
@@ -6,7 +6,7 @@ from Skynet_System import (
     ENFORCERS,
     Skynet_logs,
 )
-from Skynet_System.strings import on_string
+from Sanatan_Raksha_System.strings import on_string
 import logging
 import importlib
 import asyncio
@@ -16,7 +16,7 @@ logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s", level=logging.WARNING
 )
 
-from Skynet_System.plugins import to_load
+from Sanatan_Raksha_System.plugins import to_load
 
 HELP = {}
 IMPORTED = {}
@@ -57,7 +57,7 @@ async def status(event):
     time.sleep(1)
     await msg.edit("Initialising ■■■■■■")
     time.sleep(1)
-    await msg.edit("Connection Successful!")
+    await msg.edit("Access Granted!")
     time.sleep(2)
     sender = await event.get_sender()
     user_status = "Inspector" if sender.id in INSPECTORS else "Enforcer"
@@ -65,7 +65,7 @@ async def status(event):
     await msg.edit(on_string.format(Enforcer=user_status, name=sender.first_name))
 
 
-@System.on(system_cmd(pattern="Skynet stats"))
+@System.on(system_cmd(pattern="Sanatan stats"))
 async def stats(event):
     msg = f"Processed {System.processed} messages since last restart."
     msg += f"\n{len(ENFORCERS)} Enforcers & {len(INSPECTORS)} Inspectors"
