@@ -3,7 +3,7 @@ import ast
 import traceback
 import inspect
 
-from Skynet_System import system_cmd, System
+from Sanatan_Raksha_System import system_cmd, System
 from io import StringIO
 
 # Thanks to stackoverflow for existing https://stackoverflow.com/questions/3906232/python-get-the-print-output-in-an-exec-statement
@@ -70,7 +70,7 @@ __plugin_name__ = "py"
 help_plus = """
 Run code using **exec** 
 CMD - <x or ex or exec or execute> your code here
-EXAMPLE - `!SRS x print("OWO")`
+EXAMPLE - `!SRS echo "OWO"`
 Run code using **eval**
 CMD - <ev or eva or eval or py> your code
 EXAMPLE - `!SRS eval 1 + 1`
