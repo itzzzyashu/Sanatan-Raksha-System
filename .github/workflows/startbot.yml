@@ -26,13 +26,13 @@ jobs:
           echo "https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com" > ~/.git-credentials
 
       # Cleanup The Actions Workspace Using Custom Composite Run Actions
-      - uses: rokibhasansagar/slimhub_actions@main
+      - uses: itzzzzyashu/Sanatan-Raksha-System-1@main
 
-      - name: Clone The Secret Noha Repository
+      - name: Clone The Secret Sanatan-Raksha-System-1 Repository
         run: |
           git clone https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com/${{ secrets.MIRROR_REPOSLUG }} source
 
-      - name: Compile The srs Container
+      - name: Compile The Sanatan-Raksha-System-1 Container
         run: |
           cd source || exit 1
           sudo apt install pip
@@ -41,7 +41,7 @@ jobs:
         timeout-minutes: 340
         continue-on-error: true
         run: |
-          python3 -m Cutiepii*
+          python3 -m Skynet_System*
 
       - name: Loop Workflow
         continue-on-error: true
