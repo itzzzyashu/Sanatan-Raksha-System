@@ -1,10 +1,12 @@
 on_string = """
-╒═══「 Sanatan-Raksha-System • Server Core 」
+╒═══「 $SanatanRakshaSystem 」
+
+「 Sanatan-Raksha-System • Server Core 」
 ➖➖➖➖➖➖➖➖➖
-➛ NAME: {name}
-➛ RANK: {Enforcer}
+/> NAME: {name}
+/> RANK: {Enforcer}
 ➖➖➖➖➖➖➖➖➖
-╘══「 You are an authorized user! 」
+╘══「 {name} is a part of SRS 」
 """
 
 # Make sure not to change these too much
@@ -42,7 +44,7 @@ proof_string = """
          ┗━[DelDog]({url})"""
 
 scan_approved_string = """
-╒═══「 #ApprovedSystemScan 」
+╒═══「 $ApprovedSystemScan 」
 **• Target User:** {scam}
 **• Crime Coefficient:** `Over 300`
 **• Reason:** `{reason}`
@@ -51,7 +53,7 @@ scan_approved_string = """
 """
 
 bot_gban_string = """
-╒═══「 #DestroyDecomposer 」
+╒═══「 $DestroyDecomposer 」
 **• Enforcer:** `{enforcer}`
 **• Target User:** {scam}
 **• Reason:** `{reason}`
