@@ -1,1 +1,1 @@
-worker: python3 -m Skynet_System
+worker: python3 -m Sanatan_Raksha_System
