@@ -63,7 +63,7 @@ API_HASH_KEY = "7422340890422c56016af732f9f69cf1"
   
 STRING_SESSION = "1BVtsOHUBu0rvnoWsBKw9jJtK7zILHZ_C8BIrsxs2y99PP9K-QITU6G_E893bbi219Db959WylXOQcpFGt_LS9ICFbBka7SHXaCGrPrbPoDz2BjaHdvB2hOZMgOZtaGns8rhCMcTURDvo1TNEhzItdxWOe2xxgs6akQZmu2mLTz070Jq0dvW_0hBwFmBk3Xc-Vre0l0ezZmMA6kFymU1Z4Ixc7QtlDKS31mukQGh-nRdIPA16j0saz6zlnvpPQNfj_LdvWFuprEElA5hWq7R5nq9mmEZAe4EbqLXKL9VyWgRDlYQJgzDuM2o922GZVmf4vCCVEkdTJM1CbY75XT0BBYIF5_wPrRI="
 
-BOT_TOKEN = "5082112391:AAEZuBOWBnmrQzehmoH8S4Gs-BMRenKB0eU"
+BOT_TOKEN = "5063379816:AAGS2-iDaeZPgj9V6Zn5CYgyDYsSrkup9Lo"
 
 # with open(os.path.join(os.getcwd(), "Skynet_System/elevated_users.json"), "r") as f:
 #     data = json.load(f)
