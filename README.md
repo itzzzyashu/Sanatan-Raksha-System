@@ -1,4 +1,4 @@
-[deploy](https://heroku.com/deploy?template=https://github.com/itzzzzyashu/Sanatan-Raksha-System-1.git)
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/441b48966e9f4b58a643d7c4cee8ba66)](https://app.codacy.com/gh/Awesome-RJ/Skynet-System?utm_source=github.com&utm_medium=referral&utm_content=AnimeKaizoku/SkynetSystem&utm_campaign=Badge_Grade_Dashboard)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Repo Size](https://img.shields.io/github/repo-size/Awesome-RJ/Skynet-System)](https://github.com/Awesome-RJ/Skynet-System "Skynet X System")
@@ -70,6 +70,10 @@ Skynet is under active development and some future plans include
 
 >Why not getting list of all module instead of manually putting module in to_load?
 - I don't want people from uniborg or ftg or other userbots to put their plugins (those weird animation ones or useless ones) in Sanatan-Raksha-System
+
+
+
+[deploy](https://heroku.com/deploy?template=https://github.com/itzzzzyashu/Sanatan-Raksha-System.git)
 
 #### Credits
 
