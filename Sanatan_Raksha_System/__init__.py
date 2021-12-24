@@ -20,67 +20,23 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-"""
-ENV = bool(os.environ.get("ENV", False))
-if ENV:
-    API_ID_KEY = int(os.environ.get("API_ID_KEY"))
-    API_HASH_KEY = os.environ.get("API_HASH_KEY")
-    STRING_SESSION = os.environ.get("STRING_SESSION")
-    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY")
-    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME")
-    RAW_Skynet = os.environ.get("Skynet", "")
-    RAW_ENFORCERS = os.environ.get("ENFORCERS", "")
-    Skynet = [int(x) for x in os.environ.get("Skynet", "").split()]
-    INSPECTORS = [int(x) for x in os.environ.get("INSPECTORS", "").split()]
-    ENFORCERS = [int(x) for x in os.environ.get("ENFORCERS", "").split()]
-    MONGO_DB_URL = os.environ.get("MONGO_DB_URL")
-    Skynet_logs = int(os.environ.get("Skynet_logs"))
-    Skynet_approved_logs = int(os.environ.get("Skynet_approved_logs"))
-    GBAN_MSG_LOGS = int(os.environ.get("GBAN_MSG_LOGS"))
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-else:
-    import Skynet_System.config as Config
 
-    API_ID_KEY = Config.API_ID
-    API_HASH_KEY = Config.API_HASH
-    STRING_SESSION = Config.STRING_SESSION
-    MONGO_DB_URL = Config.MONGO_DB_URL
-    with open(os.path.join(os.getcwd(), "Skynet_System/elevated_users.json"), "r") as f:
-        data = json.load(f)
-    Skynet = data["Skynet"]
-    ENFORCERS = data["ENFORCERS"]
-    INSPECTORS = data["INSPECTORS"]
-    Skynet_logs = Config.Skynet_logs
-    Skynet_approved_logs = Config.Skynet_approved_logs
-    GBAN_MSG_LOGS = Config.GBAN_MSG_LOGS
-    BOT_TOKEN = Config.BOT_TOKEN
-
-"""
-
-API_ID_KEY = "4886713"
-
-API_HASH_KEY = "7422340890422c56016af732f9f69cf1"
-  
-STRING_SESSION = "1BVtsOHUBu0rvnoWsBKw9jJtK7zILHZ_C8BIrsxs2y99PP9K-QITU6G_E893bbi219Db959WylXOQcpFGt_LS9ICFbBka7SHXaCGrPrbPoDz2BjaHdvB2hOZMgOZtaGns8rhCMcTURDvo1TNEhzItdxWOe2xxgs6akQZmu2mLTz070Jq0dvW_0hBwFmBk3Xc-Vre0l0ezZmMA6kFymU1Z4Ixc7QtlDKS31mukQGh-nRdIPA16j0saz6zlnvpPQNfj_LdvWFuprEElA5hWq7R5nq9mmEZAe4EbqLXKL9VyWgRDlYQJgzDuM2o922GZVmf4vCCVEkdTJM1CbY75XT0BBYIF5_wPrRI="
-
-BOT_TOKEN = "5063379816:AAGS2-iDaeZPgj9V6Zn5CYgyDYsSrkup9Lo"
-
-# with open(os.path.join(os.getcwd(), "Skynet_System/elevated_users.json"), "r") as f:
-#     data = json.load(f)
+# config
+API_ID_KEY = ""
+API_HASH_KEY = ""
+STRING_SESSION = ""
+BOT_TOKEN = ""
 Skynet = [2053172802,1969730847]
 ENFORCERS = [1969730847, 2088713608, 2089452706, 1118151835]
 INSPECTORS = [1969730847, 2088713608, 2089452706, 1118151835]
-
-MONGO_DB_URL = "mongodb+srv://Itzzzyashu:XE2wNb0imzTGXv1b@cluster0.bxlbu.mongodb.net/Cluster0?retryWrites=true&w=majority"
-
+MONGO_DB_URL = ""
 Skynet_logs = "SanatanRakshaGlobalLogs" # SRS • Global
-
 Skynet_approved_logs = "SanatanRakshaApprovalLogs" # SRS • Approvals
+GBAN_MSG_LOGS = -1001708065341 # Counter-49(Gban Origination Group)
 
-GBAN_MSG_LOGS = -1001708065341 # SRS • Support
+
 
 INSPECTORS.extend(Skynet)
-
 ENFORCERS.extend(INSPECTORS)
 
 session = aiohttp.ClientSession()
