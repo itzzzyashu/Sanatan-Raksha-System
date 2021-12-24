@@ -73,7 +73,7 @@ Skynet is under active development and some future plans include
 
 
 
-[deploy](https://heroku.com/deploy?template=https://github.com/itzzzzyashu/Sanatan-Raksha-System.git)
+[![deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itzzzzyashu/Sanatan-Raksha-System.git)
 
 #### Credits
 
