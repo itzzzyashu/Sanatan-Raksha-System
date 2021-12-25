@@ -1,15 +1,7 @@
 {
       "name": "Sanatan-Raksha-System",
       "description": "A bhagwat-gita themed Telegram Gban Userbot.",
-      "keywords": [
-         "telegram",
-         "anime",
-         "group",
-         "manager",
-         "Rajni",
-         "Rajnii",
-         "RajniiRobot"
-      ],   
+      "keywords": ["telegram"],
    "repository": "https://github.com/itzzzzyashu/Sanatan-Raksha-System-1",
    "addons": [
       {
