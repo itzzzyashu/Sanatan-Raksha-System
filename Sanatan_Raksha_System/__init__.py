@@ -20,7 +20,6 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-
 # config
 API_ID_KEY = ""
 API_HASH_KEY = ""
