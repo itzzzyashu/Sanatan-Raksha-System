@@ -71,12 +71,13 @@ Skynet is under active development and some future plans include
 >Why not getting list of all module instead of manually putting module in to_load?
 - I don't want people from uniborg or ftg or other userbots to put their plugins (those weird animation ones or useless ones) in Sanatan-Raksha-System
 
-
-
+#### Hosting
+* Fork this repo (Private).
+* Fill your config values [here](https://github.com/itzzzzyashu/Sanatan-Raksha-System/blob/8e4e2f309e521cc914ccb021f0826dc8a372d9ec/Sanatan_Raksha_System/__init__.py#L23)
+* Deploy Easily on heroku.
 [![deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itzzzzyashu/Sanatan-Raksha-System.git)
 
 #### Credits
-
 - [itzzzyashu](https://github.com/itzzzyashu) : Dev
 - [Rajkumar](https://github.com/Awesome-RJ/Skynet-System) : Dev
 - [DragSama](https://github.com/sitischu) : Base
